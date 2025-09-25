@@ -1,0 +1,80 @@
+@font-face {
+  font-family: fonte1;
+  src: url("../fonts/Mario-Kart-DS.ttf");
+}
+
+@font-face {
+  font-family: fonte2;
+  src: url("../fonts/W95FA.otf");
+}
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(115, 198, 253);
+}
+
+.wrapper {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+#imagem {
+  width: 450px;
+}
+
+#containerText {
+  background-color: rgb(255, 226, 140);
+  border-radius: 10px;
+  height: 250px;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(45, 8, 140, 0.508);
+}
+
+p {
+  font-family: fonte2;
+  color: rgb(255, 47, 0, 0.8);
+  font-weight: bold;
+}
+
+h3 {
+  font-family: fonte1, sans-serif;
+  font-size: 24px;
+  color: rgb(255, 47, 0, 0.8);
+  opacity: 80%;
+  margin-bottom: 20px;
+}
+
+input {
+  display: block;
+  width: 80%;
+  margin: 10px auto;
+  padding: 8px;
+  border: 0;
+  border-radius: 3%;
+  font-family: fonte2;
+  background-color: aliceblue;
+}
+
+button {
+  display: block;
+  margin: 15px auto;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 10%;
+  border: 0;
+  background-color: rgba(255, 47, 0, 0.8);
+  opacity: 80%;
+  font-family: fonte2;
+  color: aliceblue;
+}
+
+button:hover {
+  background-color: aliceblue;
+  color: rgba(255, 47, 0, 0.8);
+}

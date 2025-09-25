@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./calculator.css" />
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <div id="calculadora">
+      <input id="display" value="0" readonly />
+
+      <div id="keys">
+        <button type="button" onclick="aparecerdisplay('+')" class="amarelo">
+          +
+        </button>
+        <button type="button" onclick="aparecerdisplay('7')">7</button>
+        <button type="button" onclick="aparecerdisplay('8')">8</button>
+        <button type="button" onclick="aparecerdisplay('9')">9</button>
+        <button type="button" onclick="aparecerdisplay('-')" class="amarelo">
+          -
+        </button>
+        <button type="button" onclick="aparecerdisplay('4')">4</button>
+        <button type="button" onclick="aparecerdisplay('5')">5</button>
+        <button type="button" onclick="aparecerdisplay('6')">6</button>
+        <button type="button" onclick="aparecerdisplay('*')" class="amarelo">
+          x
+        </button>
+        <button type="button" onclick="aparecerdisplay('1')">1</button>
+        <button type="button" onclick="aparecerdisplay('2')">2</button>
+        <button type="button" onclick="aparecerdisplay('3')">3</button>
+        <button type="button" onclick="aparecerdisplay('/')" class="amarelo">
+          /
+        </button>
+        <button type="button" onclick="aparecerdisplay('0')">0</button>
+        <button type="button" onclick="aparecerdisplay('.')">.</button>
+        <button type="button" onclick="resultado('=')">=</button>
+        <button type="button" onclick="apagar('c')" class="amarelo">c</button>
+      </div>
+    </div>
+    <script src="./calculator.js"></script>
+  </body>
+</html>
